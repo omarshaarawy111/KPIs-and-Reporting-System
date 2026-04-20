@@ -1,0 +1,43 @@
+# --- Editors & IDEs ---
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# --- Python & Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+*.env
+
+# --- Project Specific Folders ---
+data/
+archive/
+
+# --- Databases & Logs ---
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.tmp
+*.temp
+.streamlit/
+
+# --- Sensitive Data ---
+*.key
+*.pem
+*.secret
+credentials.json
+*.credential*
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Archives (Files) ---
+*.zip
+*.tar.gz
+*.rar
