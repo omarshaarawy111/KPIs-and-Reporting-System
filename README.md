@@ -1,5 +1,7 @@
 # 📊 KPIs and Reporting System
 
+> ⚠️ This is a **simplified demo version** of an internal SEO automation system.  
+> All proprietary code, credentials, and platform-specific logic have been removed to comply with confidentiality policies.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit)
