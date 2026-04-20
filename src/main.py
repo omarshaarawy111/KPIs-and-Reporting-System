@@ -29,7 +29,7 @@ if __name__ == "__main__":
         st.markdown(
             '''
             <div style="text-align: center;">
-                <img src="https://www.nestle.com/themes/custom/da_vinci_code/logo.svg" alt="Logo" style="width: 600px; height: auto;">
+                <img src="#" alt="Logo" style="width: 600px; height: auto;">
             </div>
             ''',
             unsafe_allow_html=True
@@ -67,7 +67,6 @@ if __name__ == "__main__":
                 # Preprocessing
                 df = df.rename(columns={"Justfication": "Justification"})
                 df = df.rename(columns={"Desciption": "Description"})
-                df['Brand'] = df['Brand'].replace('NP', 'Nestle Professionals')
                 df['Finished within SLA'] = df['Finished within SLA'].fillna('None').astype(str).str.strip()
                 df['Complexity'] = df['Complexity'].fillna(0)
                 df['Uncertainty'] = df['Uncertainty'].fillna(0)
@@ -993,15 +992,14 @@ if __name__ == "__main__":
                             st.plotly_chart(fig, use_container_width=True)
 
                 # Footer
-                nestle_logo_url = "https://1000logos.net/wp-content/uploads/2017/03/Nestle-Logo.png"
+                logo_url = "#"
                 st.markdown(
                 f"""
                 <div style='text-align: center; margin-top: 50px;'>
-                <a href="https://www.nestle.com/" target="_blank">
-                    <img src={nestle_logo_url}" alt="Nestlé Logo" width="120" style="margin-bottom: 10px;" />
+                <a href="#" target="_blank">
+                    <img src={logo_url}"  width="120" style="margin-bottom: 10px;" />
                 </a>
-                    <h4 style='font-size: 22px;'>🚀 Made with ❤️ by the <b>Web & Search Team</b> – NBS Cairo</h4>
-                    <h4 style='font-size: 16px;'>📌 Authority : <a href="mailto:omar.shaarawy@eg.nestle.com"><b>Omar Shaarawy</b></a> | Version 2.0.0 </h4>
+                    <h4 style='font-size: 16px;'>📌 Authority : <a href="mailto:omarelshaarawy909@gmail.com"><b>Omar Shaarawy</b></a> | Version 2.0.0 </h4>
                 </div>
                 """,
                 unsafe_allow_html=True

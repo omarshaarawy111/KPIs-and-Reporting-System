@@ -1,4 +1,4 @@
-# 📊 Metrics Monitor Dashboard
+# 📊 KPIs and Reporting System
 
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
@@ -43,8 +43,6 @@ metrics_monitor/
 │   README.md
 │   requirements.txt
 │
-├───archive
-│       app_legacy.py
 │
 │
 └───src
@@ -63,7 +61,7 @@ metrics_monitor/
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/omarshaarawy111/Metrics_Monitor.git
+git clone https://github.com/omarshaarawy111/KPIs-and-Reporting-System.git
 cd Metrics_Monitor
 
 # 2. Create virtual environment (recommended)
@@ -220,4 +218,4 @@ For questions or issues:
 
 ---
 
-**Built with ❤️ for data-driven organizations**
+**Built with ❤️ by Omar Shaarawy**
